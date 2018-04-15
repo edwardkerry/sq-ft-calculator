@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Property renders 1`] = `
+<li
+  className="property"
+>
+  <p
+    className="address"
+  >
+    Address: 
+    1 Test Street
+  </p>
+  <p
+    className="price"
+  >
+    Value: £
+    100000
+  </p>
+  <p
+    className="floor_area"
+  >
+    Floor area(sq ft): 
+    1000
+  </p>
+</li>
+`;
