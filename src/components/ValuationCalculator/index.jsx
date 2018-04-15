@@ -43,7 +43,7 @@ class ValuationCalculator extends Component {
   render() {
     return (
       <div className='valuation'>
-        A 1,1000 sq ft property will cost
+        A 1,100 sq ft property will cost
         <p className='price'>£{this.state.value} </p>
       </div>
     )
