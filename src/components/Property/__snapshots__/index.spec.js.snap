@@ -1,57 +1,53 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Property when not selected renders  1`] = `
-<li>
-  <a
-    className="property"
-    onClick={[Function]}
+<li
+  className="property"
+  onClick={[Function]}
+>
+  <p
+    className="address"
   >
-    <p
-      className="address"
-    >
-      Address: 
-      1 Test Street
-    </p>
-    <p
-      className="price"
-    >
-      Value: £
-      100000
-    </p>
-    <p
-      className="floor_area"
-    >
-      Floor area(sq ft): 
-      1000
-    </p>
-  </a>
+    Address: 
+    1 Test Street
+  </p>
+  <p
+    className="price"
+  >
+    Value: £
+    100000
+  </p>
+  <p
+    className="floor_area"
+  >
+    Floor area(sq ft): 
+    1000
+  </p>
 </li>
 `;
 
 exports[`Property when selected renders  1`] = `
-<li>
-  <a
-    className="property active"
-    onClick={[Function]}
+<li
+  className="property active"
+  onClick={[Function]}
+>
+  <p
+    className="address"
   >
-    <p
-      className="address"
-    >
-      Address: 
-      1 Test Street
-    </p>
-    <p
-      className="price"
-    >
-      Value: £
-      100000
-    </p>
-    <p
-      className="floor_area"
-    >
-      Floor area(sq ft): 
-      1000
-    </p>
-  </a>
+    Address: 
+    1 Test Street
+  </p>
+  <p
+    className="price"
+  >
+    Value: £
+    100000
+  </p>
+  <p
+    className="floor_area"
+  >
+    Floor area(sq ft): 
+    1000
+  </p>
 </li>
 `;

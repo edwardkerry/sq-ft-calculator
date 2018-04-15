@@ -4,55 +4,51 @@ exports[`Property Container renders 1`] = `
 <ul
   className="properties"
 >
-  <li>
-    <a
-      className="property"
-      onClick={[Function]}
+  <li
+    className="property"
+    onClick={[Function]}
+  >
+    <p
+      className="address"
     >
-      <p
-        className="address"
-      >
-        Address: 
-        test address 1
-      </p>
-      <p
-        className="price"
-      >
-        Value: £
-        10000
-      </p>
-      <p
-        className="floor_area"
-      >
-        Floor area(sq ft): 
-        100
-      </p>
-    </a>
+      Address: 
+      test address 1
+    </p>
+    <p
+      className="price"
+    >
+      Value: £
+      10000
+    </p>
+    <p
+      className="floor_area"
+    >
+      Floor area(sq ft): 
+      100
+    </p>
   </li>
-  <li>
-    <a
-      className="property"
-      onClick={[Function]}
+  <li
+    className="property"
+    onClick={[Function]}
+  >
+    <p
+      className="address"
     >
-      <p
-        className="address"
-      >
-        Address: 
-        test address 2
-      </p>
-      <p
-        className="price"
-      >
-        Value: £
-        20000
-      </p>
-      <p
-        className="floor_area"
-      >
-        Floor area(sq ft): 
-        200
-      </p>
-    </a>
+      Address: 
+      test address 2
+    </p>
+    <p
+      className="price"
+    >
+      Value: £
+      20000
+    </p>
+    <p
+      className="floor_area"
+    >
+      Floor area(sq ft): 
+      200
+    </p>
   </li>
 </ul>
 `;
