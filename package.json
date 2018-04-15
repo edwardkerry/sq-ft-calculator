@@ -15,8 +15,7 @@
       "^.+\\.(jsx|js)?$": "<rootDir>/node_modules/babel-jest"
     },
     "setupFiles": [
-      "<rootDir>/tests/config/jest/reactShim.js",
-      "<rootDir>/tests/config/jest/enzymeSetup.js"
+      "<rootDir>/src/testSetup/enzymeSetup.js"
     ],
     "collectCoverageFrom": [
       "**/*.component.{js,jsx}",
@@ -24,9 +23,6 @@
     ],
     "coverageReporters": [
       "text-summary"
-    ],
-    "setupFiles": [
-      "<rootDir>/src/enzymeSetup.js"
     ]
   },
   "devDependencies": {
@@ -42,7 +38,11 @@
     "webpack-dev-server": "^3.1.3"
   },
   "dependencies": {
+    "css-loader": "^0.28.11",
+    "node-sass": "^4.8.3",
     "react": "^16.3.1",
-    "react-dom": "^16.3.1"
+    "react-dom": "^16.3.1",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.20.3"
   }
 }

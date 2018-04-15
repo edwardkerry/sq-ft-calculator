@@ -8,7 +8,7 @@ const PropertyContainer = ({properties}) => (
         return (<Property
           address={property.address}
           price={property.price}
-          floor_area={property.floor_area}
+          floorArea={property.floor_area}
           key={index}
         />)
       })}

@@ -7,14 +7,14 @@ describe('Property', () => {
   const testPrice = 100000
   const testArea = 1000
 
-  const wrapper = shallow(<Property address={testAddress} price={testPrice} floor_area={testArea} />)
+  const wrapper = shallow(<Property address={testAddress} price={testPrice} floorArea={testArea} />)
 
   it('renders', () => {
     const component = renderer.create(
       <Property
         address={testAddress}
         price={testPrice}
-        floor_area={testArea}
+        floorArea={testArea}
     />)
     const tree = component.toJSON()
 
