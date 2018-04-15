@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Valuation Calculator renders 1`] = `
+<div
+  className="valuation"
+>
+  A 1,1000 sq ft property will cost
+  <p
+    className="price"
+  >
+    £
+    1466300
+     
+  </p>
+</div>
+`;
