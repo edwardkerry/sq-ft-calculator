@@ -25,7 +25,6 @@ class PropertyContainer extends Component {
     this.setState({
       selectedProperties: this.state.selectedProperties.filter(prop => prop !== index)
     })
-    console.log(this.state)
   }
 
   addProperty(index) {
@@ -38,7 +37,6 @@ class PropertyContainer extends Component {
     this.isPropertySelected(index) ?
     this.removeProperty(index):
     this.addProperty(index)
-    console.log('toggled!')
   }
 
   render() {

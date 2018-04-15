@@ -17,4 +17,37 @@ describe('Property Container', () => {
     expect(wrapper.find('.properties').children().length).toEqual(propertyList.length)
   });
 
+  describe('#isPropertySelected', () => {
+    const wrapper = shallow(<PropertyContainer properties={propertyList} />)
+    wrapper.setState({selectedProperties: [1,2,3]})
+    const instance = wrapper.instance()
+    it('is true when a property is selected', () => {
+      expect(instance.isPropertySelected(2)).toEqual(true)
+    })
+
+    it('is false when a property is not selected', () => {
+      expect(instance.isPropertySelected(8)).toEqual(false)
+    })
+  });
+
+  describe('#addProperty', () => {
+    it('adds a property to the selectedProperty array', () => {
+      const wrapper = shallow(<PropertyContainer properties={propertyList} />)
+      wrapper.setState({ selectedProperties: [1, 2, 3] })
+      const instance = wrapper.instance()
+      instance.addProperty(5)
+      expect(instance.state.selectedProperties).toEqual([1,2,3,5])
+    })
+  });
+
+  describe('#removeProperty', () => {
+    it('removes a property to the selectedProperty array', () => {
+      const wrapper = shallow(<PropertyContainer properties={propertyList} />)
+      wrapper.setState({ selectedProperties: [1, 2, 3] })
+      const instance = wrapper.instance()
+      instance.removeProperty(3)
+      expect(instance.state.selectedProperties).toEqual([1, 2])
+    })
+  });
+
 });
