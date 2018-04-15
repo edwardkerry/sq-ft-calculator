@@ -17,6 +17,9 @@
     "setupFiles": [
       "<rootDir>/src/testSetup/enzymeSetup.js"
     ],
+    "moduleNameMapper": {
+      "^.+\\.(css|scss)$": "<rootDir>/src/testSetup/styleMock.js"
+    },
     "collectCoverageFrom": [
       "**/*.component.{js,jsx}",
       "!**/node_modules/**"

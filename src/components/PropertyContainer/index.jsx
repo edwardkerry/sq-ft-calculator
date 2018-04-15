@@ -2,6 +2,8 @@ import React, { Component} from 'react';
 import { arrayOf, shape, string, number } from 'prop-types';
 import Property from '../Property';
 
+import './styles.scss';
+
 class PropertyContainer extends Component {
 
   constructor(props) {

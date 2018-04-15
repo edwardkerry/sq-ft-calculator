@@ -45,7 +45,7 @@ describe('Property', () => {
     });
 
     it('does not have an active className', () => {
-      expect(wrapper.find('a').hasClass('active')).toEqual(false)
+      expect(wrapper.hasClass('active')).toEqual(false)
     })
   });
 
@@ -74,7 +74,7 @@ describe('Property', () => {
     />)
 
     it('has an active className', () => {
-      expect(wrapper.find('a').hasClass('active')).toEqual(true)
+      expect(wrapper.hasClass('active')).toEqual(true)
     });
   });
 });
