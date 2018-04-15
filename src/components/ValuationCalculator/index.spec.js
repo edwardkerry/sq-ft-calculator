@@ -7,13 +7,13 @@ describe('Valuation Calculator', () => {
   const properties = [
     {
       price: 300000,
-      floorArea: 300
+      floor_area: 300
     },{
       price: 500000,
-      floorArea: 500
+      floor_area: 500
     },{
       price: 1000000,
-      floorArea: 500
+      floor_area: 500
     }
   ]
 

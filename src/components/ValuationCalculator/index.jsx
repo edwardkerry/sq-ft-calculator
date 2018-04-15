@@ -25,7 +25,7 @@ class ValuationCalculator extends Component {
 
   getAllFootageCosts() {
     return this.props.properties.map((property) => {
-      return Math.round(property.price / property.floorArea)
+      return Math.round(property.price / property.floor_area)
     })
   }
 
@@ -54,7 +54,7 @@ ValuationCalculator.propTypes = {
   properties: arrayOf(
     shape({
       price: number.isRequired,
-      floorArea: number.isRequired
+      floor_area: number.isRequired
     }).isRequired
   ).isRequired
 };
