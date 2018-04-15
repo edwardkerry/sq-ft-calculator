@@ -1,9 +1,11 @@
 li {
+  margin: 5px;
   padding: 20px;
-  border: 2px solid black;
+  border: 2px solid rgb(53, 58, 57);
+  background-color: rgb(169, 170, 177);
 }
 
 .active {
-  border: 2px solid red;
-  background-color: green;
+  border: 2px solid rgb(65, 221, 73);
+  background-color: rgb(113, 228, 113);
 }

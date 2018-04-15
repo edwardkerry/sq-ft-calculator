@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { arrayOf, shape, number } from 'prop-types';
 
+import './styles.scss';
+
 class ValuationCalculator extends Component {
 
   constructor(props) {

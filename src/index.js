@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-const title = 'Basic React hot Rendering!';
+import Dashboard from './components/Dashboard'
 
 ReactDOM.render(
-  <div>{title}</div>,
+  <Dashboard />,
   document.getElementById('app')
 );
 
