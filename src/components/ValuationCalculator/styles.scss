@@ -1,4 +1,13 @@
 .valuation {
-    margin-top: 20vh;
-    margin-bottom: 25vh;
+  height: 20%;
+  margin-top: 20vh;
+  padding: 10px;
+  border: 2px solid rgb(53, 58, 57);
+  background-color: rgb(169, 170, 177);
+  justify-content: center;
+}
+
+.price {
+  font-size: 20px;
+  color: rgb(113, 228, 113);
 }

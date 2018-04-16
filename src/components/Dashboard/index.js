@@ -1,9 +1,9 @@
 import React from 'react';
 import propertyList from '../../../properties';
 import PropertyContainer from '../PropertyContainer';
+import ValuationCalculator from '../ValuationCalculator';
 
 import './styles.scss'
-import ValuationCalculator from '../ValuationCalculator';
 
 export default () => (
   <div className="dashboard">
